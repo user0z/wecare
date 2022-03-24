@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Care</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="navbar">
+        
+        <div class="nav-branding">
+            <a href="index.html">We<i class="fa-regular fa-heart"></i> <br> Care</a>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="sitter.html">Find a sitter</a></li>
+            </ul>
+        </div>
+
+        <div class="sign-in">
+            <ul>
+                <li><a href="sign-in.html">Sign in</a></li>
+                <li><a href="sign-up.html">Sign up</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-btn">
+            <button onclick="openManu()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+
+
+    </header>
+
+    <div class="menu" id="menu">
+        <div class="close-btn">
+            <button onclick="closeManu()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <nav class="menu-links">
+            <ul>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="sitter.html">Find a sitter</a></li>
+                <li><a href="sign-in.html">Sign in</a></li>
+                <li><a href="sign-up.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-container">
+    
+        <div class="sitter-details-card">
+                        
+            <div class="sitter-img">
+                <img src="img/sitters/sitter-2.jpg" alt="">
+            </div>
+
+            <div class="sitter-details-text">
+                <span><p>Emma <i class="fa-regular fa-circle-check"></i></p> <p>from 10$</p></span>
+                <span>          
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                     4.9
+                </span>
+                <a class="contact-btn">Book</a>
+            </div>
+
+        </div>
+
+        <div class="sitter-about">
+            <span>About <br></span>
+            <p>Hello everyone! My name is Emma, and I am 19 year old. I study at the Law Universtiy and like to spen my free time usefully.As a child I spen a lot of time with dogs and cats in the village. All wishes will be met by me, you will recive pictures and updates every stap of the way. I approach my work responsibly,so I will ask you alog of questions about the pet regimen, habits, problems, etc. Also,I want to note that I work from homem, so your pet will never be alone. At you request, we can organize a preliminary acquainatance. I wan't be able to take aggressive dogs and those that gnaw on furniture.</p>
+        </div>
+
+        <div class="review-container">
+            <div class="rating-section">
+                <span>What people think about us?</span><br>
+                <span> 245 reviews</span>
+                <span>          
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </span>
+                <span> 4.9</span>
+            </div>
+    
+            <div class="review-card-flex">
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="img/review-1.jpg" alt="">
+                    </div>
+    
+                    <div class="review-text">
+                        <span>          
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+    
+                        <span>
+                            My dog had a great time with Maria! She sent pictures and videos and updated me with how it was going! Would definitely user her again for dog sitting.
+                        </span>
+    
+                        <span>Ava, NY</span>
+                    </div>
+    
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-img">
+                        <img src="img/review-2.jpg" alt="">
+                    </div>
+    
+                    <div class="review-text">
+                        <span>          
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+    
+                        <span>
+                            Natalie took great care of our cat. We got a lot of photos and even some videos. We came home to a happy cat, highly recommended 10/10
+                        </span>
+    
+                        <span>Robert, LA</span>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+<div class="footer">
+       <div class="footer-branding">
+            <a href="index.html">We<i class="fa-regular fa-heart"></i> <br> Care</a>
+        </div>    
+        
+        <div class="footer-s1">
+            <span>About us</span>
+            <span>Blog</span>
+            <span>Become a sitter</span>
+        </div>
+
+        <div class="footer-s2">
+            <span>Pet Boarding</span>
+            <span>Day care</span>
+            <span>House sitting</span>
+            <span>Dog walking</span>
+            <span>Pet grooming</span>
+        </div>
+
+        <div class="footer-s3">
+            <span>Help center</span>
+            <span>Contact us</span>
+        </div>
+
+        <div class="socials">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://in.pinterest.com"><i class="fa-brands fa-pinterest-square"></i></a>
+        </div>
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
